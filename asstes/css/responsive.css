@@ -1,0 +1,95 @@
+/* Tablet & Mobile */
+@media (max-width: 63.9375em) {
+
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .project__test {
+        width: 50%;
+    }
+
+    .project {
+        padding: 0 8px ;
+        overflow: hidden;
+    }
+
+    .socials__slogan {
+        margin-top: 310px;
+    }
+
+    .socials_link {
+        font-size: 1.2rem;
+        margin-bottom: 220px;
+        padding: 14px 34px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .header__list {
+        justify-content: center;
+        margin: 0 8px;
+    }
+
+    .app {
+        overflow-x: hidden;
+    }
+
+    .project {
+        padding: 0 8px;
+        overflow: hidden;
+    }
+
+    .project__list{
+        flex-direction: column;
+        margin: 0 4px;
+    }
+
+    .project__test {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 14px;
+    }
+
+    .project__img {
+        height: 366px;
+      
+    }
+
+    .project__name {
+        font-size: 1.2rem;
+    }
+
+
+    .project__tittle {
+        font-size: 1.9rem;
+    }
+
+    .socials {
+        width: 100%;
+    }
+    .socials__slogan {
+        font-size: 1.8rem;
+        margin-top: 140px;
+    }
+
+    .socials__description {
+       font-size: 0.8rem;
+       width: 100%;
+    }
+
+    .socials-list {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .socials_link {
+        font-size: 1.3rem
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
